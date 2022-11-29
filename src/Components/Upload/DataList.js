@@ -1,0 +1,175 @@
+export const propertySub = [
+  {
+    id: 1,
+    value: "Apartment",
+    check: false,
+  },
+  {
+    id: 2,
+    value: "Residential Plot",
+    check: false,
+  },
+  {
+    id: 3,
+    value: "Independent House",
+    check: false,
+  },
+  {
+    id: 4,
+    value: "Studio Apartment",
+    check: false,
+  },
+  {
+    id: 5,
+    value: "Independent Floor",
+    check: false,
+  },
+  {
+    id: 6,
+    value: "Duplex",
+    check: false,
+  },
+  {
+    id: 7,
+    value: "Penthouse",
+    check: false,
+  },
+  {
+    id: 8,
+    value: "Agricultural Land",
+    check: false,
+  },
+  {
+    id: 9,
+    value: "Villa",
+    check: false,
+  },
+];
+
+export const property = [
+  {
+    id: 10,
+    value: "Residential",
+    check: true,
+  },
+  {
+    id: 11,
+    value: "Commercial",
+    check: false,
+  },
+  {
+    id: 12,
+    value: "Mixed development",
+    check: false,
+  },
+  {
+    id: 13,
+    value: "Mixed Other",
+    check: false,
+  },
+];
+
+export const optionList = [
+  { value: "1RK", label: "1RK" },
+  { value: "1BHK", label: "1BHK" },
+  { value: "1.5BHK", label: "1.5BHK" },
+  { value: "2BHK", label: "2BHK" },
+  { value: "2.5BHK", label: "2.5BHK" },
+  { value: "3BHK", label: "3BHK" },
+  { value: "3.5BHK", label: "3.5BHK" },
+  { value: "4BHK", label: "4BHK" },
+  { value: "4.5BHK", label: "4.5BHK" },
+  { value: "5BHK", label: "5BHK" },
+  { value: "6BHK", label: "6BHK" },
+  { value: "Residential Plot", label: "Residential Plot" },
+  { value: "Studio", label: "Studio" },
+];
+
+export const tableData = [
+  {
+    id: "#1001",
+    name: "Lodha Codename Premier",
+    type: "Residential",
+    possession: "Under Construction",
+    status: "Approved",
+    rate: 3,
+  },
+  {
+    id: "#1002",
+    name: "Srishti Launch Code Blockbuster Living",
+    type: "Villa ",
+    possession: "Ready To  Move",
+    status: "Approved",
+    rate: 100,
+  },
+  {
+    id: "#1003",
+    name: "Lodha Codename Premier",
+    type: "Residential",
+    possession: "Under  Construction",
+    status: "Pending",
+    rate: 30,
+  },
+  {
+    id: "#1004",
+    name: "Lodha Codename Premier",
+    type: "Residential",
+    possession: "Under  Construction",
+    status: "Approved",
+    rate: 0,
+  },
+  {
+    id: "#1004",
+    name: "Lodha Codename Premier",
+    type: "Commercial",
+    possession: "New Launch",
+    status: "Pending",
+    rate: 50,
+  },
+  {
+    id: "#1005",
+    name: "Lodha Codename Premier",
+    type: "Commercial",
+    possession: "New Launch",
+    status: "Pending",
+    rate: 80,
+  },
+  {
+    id: "#1006",
+    name: "Lodha Codename Premier",
+    type: "Commercial",
+    possession: "New Launch",
+    status: "Pending",
+    rate: 90,
+  },
+];
+
+export const amenties = [
+  { value: "Club house", label: "Club house" },
+  { value: "Swimming Pool", label: "Swimming Pool" },
+  { value: "Children Play Area", label: "Children Play Area" },
+  { value: "Reading room/library", label: "Reading room/library" },
+  { value: "Indoor kids play area", label: "Indoor kids play area" },
+  { value: "Indoor playing courts", label: "Indoor playing courts" },
+  { value: "Large banquet hall", label: "Large banquet hall" },
+  { value: "conference room", label: "conference room" },
+  { value: "Tennis courts", label: "Tennis courts" },
+  { value: "Outdoor badminton court", label: "Outdoor badminton court" },
+  { value: "Cricket net", label: "Cricket net" },
+  { value: "Skating rink", label: "Skating rink" },
+  { value: "Rock garden", label: "Rock garden" },
+  { value: "Butterfly park", label: "Butterfly park" },
+  { value: "Foot Soak", label: "Foot Soak" },
+  { value: "Basketball Court", label: "Basketball Court" },
+  { value: "Play Lawn", label: "Play Lawn" },
+  { value: "Mini Golf", label: "Mini Golf" },
+  { value: "Mini Bridge", label: "Mini Bridge" },
+  { value: "Mini Hocky Court", label: "Mini Hocky Court" },
+  { value: "The Culture Club", label: "The Culture Club" },
+  { value: "Kabaddi Court", label: "Kabaddi Court" },
+  { value: "Yoga Lawn", label: "Yoga Lawn" },
+  { value: "E-Tuition Zone", label: "E-Tuition Zone" },
+  { value: "Fresh Air Tower", label: "Fresh Air Tower" },
+  { value: "Wearable tracking devices", label: "Wearable tracking devices" },
+  { value: "Outdoor gym", label: "Outdoor gym" },
+];
