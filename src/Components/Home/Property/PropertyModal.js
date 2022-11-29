@@ -314,16 +314,10 @@ const PropertyModal = ({ saveData }) => {
     postData.floorplan = await s;
     console.log(postData);
     for (let d in postData) {
-<<<<<<< HEAD
       console.log(d, typeof postData[d], postData[d]);
       if (typeof postData[d] != undefined) {
         if (Array.isArray(postData[d])){
           for (let i = 0; i < postData[d].length; i++){
-=======
-      if (typeof postData[d] !== undefined) {
-        if (Array.isArray(postData[d]))
-          for (let i = 0; i < postData[d].length; i++)
->>>>>>> e8241ab9420c408f3f82e8908e66a03b9fe4fc83
             formData.append(d, postData[d][i]);
           }
         }
@@ -336,7 +330,6 @@ const PropertyModal = ({ saveData }) => {
         console.log("err");
       }
     }
-<<<<<<< HEAD
     console.log("postData: ", formData);
     console.log(postData);
     // if (data._id === undefined) {
@@ -352,8 +345,6 @@ const PropertyModal = ({ saveData }) => {
     //   .catch(function (error) {
     //     console.log(error);
     //   });
-=======
->>>>>>> e8241ab9420c408f3f82e8908e66a03b9fe4fc83
 
     if (data._id === undefined) {
       axios
